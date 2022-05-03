@@ -1,12 +1,14 @@
 import React from 'react';
-import { Widget } from './components/Widget/Widget';
+import { WidgetButton } from './components/WidgetButton/WidgetButton';
+import { WidgetForm } from './components/WidgetForm/WidgetForm';
 import './global.css';
 
 
 export const App = () => {
   return (
     <>
-      <Widget/>
+      <WidgetForm/>
+      <WidgetButton/>
     </>
   );
 }

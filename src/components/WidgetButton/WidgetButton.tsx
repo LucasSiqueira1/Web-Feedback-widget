@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ChatTeardropDots } from "phosphor-react";
 import { Popover } from '@headlessui/react';
 
-export const Widget = () => {
+export const WidgetButton = () => {
     // const [isWidgetOpen, setIsWidgetOpen] = useState(false);
 
     // const visibleWidget = () => {
