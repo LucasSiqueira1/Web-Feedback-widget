@@ -1,11 +1,13 @@
 import React from 'react';
+import { Widget } from './components/Widget/Widget';
+import './global.css';
 
-function App() {
+
+export const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <Widget/>
     </>
   );
 }
 
-export default App;
