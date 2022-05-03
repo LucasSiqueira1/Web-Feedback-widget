@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChatTeardropDots } from "phosphor-react";
 import { Popover } from '@headlessui/react';
-import { WidgetForm } from '../WidgetForm/WidgetForm';
+import { WidgetForm } from '../WidgetForm';
 
 export const WidgetButton = () => {
     // const [isWidgetOpen, setIsWidgetOpen] = useState(false);

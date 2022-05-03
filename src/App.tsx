@@ -1,6 +1,6 @@
 import React from 'react';
-import { WidgetButton } from './components/WidgetButton/WidgetButton';
-import { WidgetForm } from './components/WidgetForm/WidgetForm';
+import { WidgetButton } from './components/WidgetButton';
+import { WidgetForm } from './components/WidgetForm';
 import './global.css';
 
 
