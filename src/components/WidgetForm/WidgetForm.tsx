@@ -41,7 +41,14 @@ export const WidgetForm = () => {
                 </header>
                 
                 <div className="flex py-8 gap-2 w-full">
-                
+                    {Object.entries(feedbackTypes).map(([key, value]) => {
+                        return(
+                            <button>
+                                <img src={value.image.source} alt={value.image.alt} />
+                                <span>{value.title}</span> 
+                            </button>
+                        )
+                    })}
                 </div>
                 
                 
