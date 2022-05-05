@@ -6,6 +6,7 @@ import bugImage from '../../assets/bug.svg'
 import ideaImage from '../../assets/idea.svg'
 import thoughtImage from '../../assets/thought.svg'
 import { FeedbackTypeStep } from './Steps/FeedbackTypeStep';
+import { FeedbackContentStep } from './Steps/FeedbackContentStep';
 
 
 export const feedbackTypes = {
@@ -32,21 +33,25 @@ export const feedbackTypes = {
     },
 }
 
-export const WidgetForm = () => {
-    const [typefeedback, setTypeFeedback] = useState('')
+// keyof -> chave de
+export type FeedbackType = keyof typeof feedbackTypes; 
 
+export const WidgetForm = () => {
+    const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
 
     return (
         <>
             <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
-                {!typefeedback ? (
-                        <FeedbackTypeStep props={setTypeFeedback} />
+                {!feedbackType ? (
+                        <FeedbackTypeStep props={setFeedbackType} /> 
+                        // passando o state setFeedbackTypes dessa função para outra
                 ) : (
-                    <span>{typefeedback}</span>
+                    <>
+                        <FeedbackContentStep props={feedbackType}/>
+                        <CloseButton/>
+                    </>
+                    
                 )}
-
-
-
             </div>
         </>
     )
