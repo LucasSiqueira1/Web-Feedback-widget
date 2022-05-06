@@ -39,6 +39,9 @@ export type FeedbackType = keyof typeof feedbackTypes;
 export const WidgetForm = () => {
     const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
 
+    const handleReturnFeedback = () => {
+        setFeedbackType(null)
+    }
     return (
         <>
             <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
@@ -47,12 +50,14 @@ export const WidgetForm = () => {
                         // passando o state setFeedbackTypes dessa função para outra
                 ) : (
                     <>
-                        <FeedbackContentStep props={feedbackType}/>
+                        <FeedbackContentStep props={feedbackType} propsFeedbackBack = {handleReturnFeedback}/>
                         <CloseButton/>
                     </>
                     
                 )}
+                <footer>Todos os direito reservados</footer>
             </div>
+            
         </>
     )
 }   
