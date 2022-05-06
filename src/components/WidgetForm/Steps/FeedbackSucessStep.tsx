@@ -1,6 +1,9 @@
 import { CloseButton } from "../../CloseButton"
 
-export const FeedbackSucessStep = () => {
+interface FeedbackSucessStepProps{
+    props: () => void
+}
+export const FeedbackSucessStep = ({props} : FeedbackSucessStepProps) => {
     return (
         <>
             <header>
@@ -15,7 +18,7 @@ export const FeedbackSucessStep = () => {
 
                 <span className="text-xl mt-2">Agradecemos o feedback!</span>
 
-                <button className="py-2 px-6 mt-6 bg-zinc-800 rounder-md border-transparent text-sm leading-6 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500">
+                <button onClick={props} className="py-2 px-6 mt-6 bg-zinc-800 rounder-md border-transparent text-sm leading-6 hover:bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500">
                     Quero enviar outro
                 </button>
             </div>
