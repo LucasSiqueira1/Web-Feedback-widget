@@ -4,6 +4,7 @@ import { CloseButton } from "../../CloseButton"
 import { ArrowLeft, Camera } from "phosphor-react";
 import { ScreenshotButton } from "../ScreenshotButton";
 import { useState } from "react";
+import { api } from '../../../utils/api';
 
 interface FeedbackContentStepProps {
     props: FeedbackType
@@ -16,12 +17,21 @@ export const FeedbackContentStep = ({ props, propsFeedbackBack, propsFeedbackSen
 
     const feedbackTypeInfo = feedbackTypes[props]
 
-    const handleSubmitFeedback = (event: FormEvent) => {
+
+    const handleSubmitFeedback = async(event: FormEvent) => {
         event.preventDefault();
-        console.log(screenshot, comment)
+        // console.log(screenshot, comment)
+
+        await api.post('/feedbacks', {
+            type: props,
+            comment,
+            screenshot
+        })
 
         propsFeedbackSend()
     }
+
+
     return (
         <>
 
