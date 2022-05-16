@@ -71,4 +71,4 @@
 
 <br/><a name="licenca"></a>
 ## Licença
-   Projeto sobre licença [MIT]()
+   Projeto sobre licença [MIT](LICENSE.md)
