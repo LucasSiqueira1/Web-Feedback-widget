@@ -21,7 +21,7 @@
 
 <div align="center">
    <br/>
-   https://user-images.githubusercontent.com/82816967/168631419-cc047e96-ad86-4c47-9ba8-f9dd4c734a72.mp4
+   Clique <a href="https://user-images.githubusercontent.com/82816967/168631419-cc047e96-ad86-4c47-9ba8-f9dd4c734a72.mp4" target="_blank">nesse link</a> para ver um pequeno vídeo da aplicação sendo utilizada e de todas suas funcionaliidades! 
 </div>
 
 
