@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# Front-end Feedback Widget.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#
 
-In the project directory, you can run:
 
-### `yarn start`
+<p align="center">
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#acess">Acessibilidade</a>&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;
+  <a href="#prototipo">Projeto</a>&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades e Tecnologias</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#licenca">Licença</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#
 
-### `yarn test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center">
+   <br/>
+   <img src="" width=""/>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `yarn eject`
+## Sobre
+   <p>
+      <a name="sobre"></a>
+      Front-end do projeto Feedback widget, na sua versão web. A aplicação é um widget de feedback que fica alocado no canto inferior direito da página, permitindo ao usuário enviar feedback para o desenvolvedor, dono do negócio, etc.
+   </p> <br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acessibilidade
+   <p>
+      <a name="acess"></a>
+      O Front-end do projeto Feedback widget, na sua versão web, é acessível para todos os usuários, inclusive para usuários com deficiência visual. Você pode navegar através do teclado, utilizando o TAB e ENTER.
+   </p><br/>
+   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   <a name="prototipo"></a>
+## Projeto
+   
+   <p>
+      Para acessar a aplicação, clique esse link: https://web-feedback-widget-navy.vercel.app/
+   </p> <br/>
+   <p>
+      Navegamos em sites o dia todo, e muitas vezes nos enfrentamos com problemas do site, erros de layout, ideias, ou até outros pontos interessantes. Dado essa visão foi elaborado uma aplicação web que possibilita ao usuário enviar um feedback seja ele um problema, uma ideia ou um outro mesmo. Vale ressaltar que é uma aplicação que pode ser acoplada em qualquer site.
+   </p> <br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   
+<br/><a name="funcionalidades"></a>
+## Funcionalidades e Tecnologias
+   <p>
+      A aplicação consiste em um botão no canto inferior direito da página, que ao clicar irá abrir um menu com algumas opções, que são "Problema", "Ideia", "Outro", ao selecionar o usuario pode enviar um feedback com base na opção selecionada, além de poder tirar um print da tela, de forma totalmente automática, clicando apenas no botão. Abaixo tem as tecnologias utilizadas: <br/>
+   
+   <ul>
+      <li>ReactJS</li>
+      <li>TypeScript</li>
+      <li>Headless UI - Acessibilidade</li>
+      <li>Phospor Icons</li>
+      <li>Tailwind CSS</li>
+      <li>Axios</li>
+   </ul>
+   </p>
+   
+   
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/><a name="licenca"></a>
+## Licença
+   Projeto sobre licença [MIT]()
