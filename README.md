@@ -22,6 +22,7 @@
 <div align="center">
    <br/>
    Clique <a href="https://user-images.githubusercontent.com/82816967/168631419-cc047e96-ad86-4c47-9ba8-f9dd4c734a72.mp4" target="_blank">nesse link</a> para ver um pequeno vídeo da aplicação sendo utilizada e de todas suas funcionaliidades! 
+   Ou <a href="https://web-feedback-widget-navy.vercel.app/" target="_blank">clique aqui</a>, para você mesmo utilizar a aplicação!
 </div>
 
 
